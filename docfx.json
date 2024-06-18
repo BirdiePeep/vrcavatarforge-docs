@@ -1,0 +1,29 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": ["default", "modern", "templates/material"],
+    "globalMetadata": {
+      "_appName": "Avatar Forge",
+      "_appTitle": "Avatar Forge",
+      "_enableSearch": true,
+      "pdf": false
+    }
+  }
+}

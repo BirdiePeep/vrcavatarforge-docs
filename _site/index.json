@@ -1,0 +1,107 @@
+{
+  "docs/action-menu.html": {
+    "href": "docs/action-menu.html",
+    "title": "Action Menu | Avatar Forge",
+    "keywords": "Action Menu Used to add controls to your avatar which are accessable through the VRChat Action Menu. Controls Toggle Button Slider Sub Menu Toggle A control which can be toggled ON/OFF. Group: Specifies which group the toggle belongs to, you can use any string to represent a group. When grouped, only one toggle turned ON at a time. Default: Which toggle is ON by default for the group. Off State: Which toggle represents the OFF state for the group. This toggle turns ON when other the other grouped toggles are turned OFF. Default On: When enabled the toggle will start ON Parameter: The parameter used for this control. If left blank, or the parameter name does not exist, one will be auto-generated. Fade In: Time in seconds for the control to fade in. Fade Out: Time in seconds for the control to fade out. Hold: Time in seconds the control will stay ON before fading out. For example, you may want an animation to play for minimum of X seconds even if the user has turned the control OFF. Button A control which can be temporarily ON/OFF. Parameter: The parameter used for this control. If left blank, or the parameter name does not exist, one will be auto-generated. Fade In: Time in seconds for the control to fade in. Fade Out: Time in seconds for the control to fade out. Hold: Time in seconds the control will stay ON before fading out. For example, you may want an animation to play for minimum of X seconds even if the user has turned the control OFF. Slider A control which can set a value between 0% and 100%. Animation: An animation clip applied to the FX layer. The control value determines where the animation is sampled between it's start and end frames. Unlike most animations it does not update over time. For example, if the control is set to 50% then values will be applied from the middle of the animation. This means you must supply an animation with at least two keyframes. Default Value: The default value for the control. Parameter: The parameter used for this control. If left blank, or the parameter name does not exist, one will be auto-generated. SubMenu Defines another menu for additional controls. Click the Sub-Menu button to view/edit those controls. Options Options determine what happens when using a control. Learn about Options."
+  },
+  "docs/add-parameters.html": {
+    "href": "docs/add-parameters.html",
+    "title": "Getting Started | Avatar Forge",
+    "keywords": "Getting Started"
+  },
+  "docs/attachments.html": {
+    "href": "docs/attachments.html",
+    "title": "Getting Started | Avatar Forge",
+    "keywords": "Getting Started"
+  },
+  "docs/body-overrides.html": {
+    "href": "docs/body-overrides.html",
+    "title": "Body Overrides | Avatar Forge",
+    "keywords": "Body Overrides Disables the automatic animations and IK applied your avatar from VRChat. These stay disabled as long as the control is ON, once OFF those body parts will return to normal. For example, if you have a facial animation you want to play, you may apply this option and check the \"Eyes\" to disable blinking animations or \"Mouth\" to disable visimes. Note This feature simply adds a Animator Tracking Control to the controller state. Learn more here VRChat Docs - Animator Tracking Control."
+  },
+  "docs/build-options.html": {
+    "href": "docs/build-options.html",
+    "title": "Getting Started | Avatar Forge",
+    "keywords": "Getting Started"
+  },
+  "docs/example-avatar.html": {
+    "href": "docs/example-avatar.html",
+    "title": "Getting Started | Avatar Forge",
+    "keywords": "Getting Started"
+  },
+  "docs/gestures.html": {
+    "href": "docs/gestures.html",
+    "title": "Getting Started | Avatar Forge",
+    "keywords": "Getting Started"
+  },
+  "docs/install.html": {
+    "href": "docs/install.html",
+    "title": "Install With VCC | Avatar Forge",
+    "keywords": "Install With VCC Install package with the VRChat Creator Companion Install To VCC When prompted in VCC, click \"I Understand, Add Repository\" Click \"Manage Project\" on your VCC project Add the latest Avatar Forge to your project Install Via Package Alternativly, download from GitHub and add in your Unity project Github Project"
+  },
+  "docs/material-swap.html": {
+    "href": "docs/material-swap.html",
+    "title": "Material Swap | Avatar Forge",
+    "keywords": "Material Swap Swaps one or more of the materials from a Renderer while the action is ON. When the action is OFF the material will swap back to it's original."
+  },
+  "docs/material-variation.html": {
+    "href": "docs/material-variation.html",
+    "title": "Material Variation | Avatar Forge",
+    "keywords": "Material Variation Warning This feature is experimental and may change in the future. Generates a new material by taking an existing material and applying textures on top. Any instance of the source material on the avatar will be swapped with the new material when the action is ON. Material: The source material in which you want to apply textures to. Preview: Used to preview the material changes in your scene. This only works if the scene contains the source material. Layers: A group of textures to be applied. Name: Name for your own organization. Opacity: A master opacity for every texture in the layer. Mask: A B&W mask used when applying the layer's texture. Anything in the white portion will be applied. Textures: Channel: The texture channel on the shader that the texture will be applied over. Texture: The texture drawn on top of the source material. Color: Color which is multiplied with the source texture. Blend Mode: How the texture is applied to the source. Normal: Alpha blend the source onto the destination Additive: Adds the source onto the destination Multiply: Multiplies the source with the destination"
+  },
+  "docs/merge-animators.html": {
+    "href": "docs/merge-animators.html",
+    "title": "Getting Started | Avatar Forge",
+    "keywords": "Getting Started"
+  },
+  "docs/non-menu-actions.html": {
+    "href": "docs/non-menu-actions.html",
+    "title": "Getting Started | Avatar Forge",
+    "keywords": "Getting Started"
+  },
+  "docs/play-animation.html": {
+    "href": "docs/play-animation.html",
+    "title": "Play Animation | Avatar Forge",
+    "keywords": "Play Animation Plays the referenced animations while the control is ON. Animation: The AnimationClip you want to play Playable Layer: Which playable layer should this animation be used on. Typically animations are either played on the FX (Non-Humanoid Bones) or Action (Humanoid Bones) layer. To learn more refer to the VRChat Docs - Playable Layers"
+  },
+  "docs/play-audio.html": {
+    "href": "docs/play-audio.html",
+    "title": "Play Audio | Avatar Forge",
+    "keywords": "Play Audio Warning This feature is experimental and may change in the future. VRChat has recently introduced the \"Animator Play Audio\" state behaviour. This feature will eventually be reworked to use that new more efficent feature. Lets you play an audio clip when this action is turned ON. Target: GameObject reference specifying where the audio source should exist. Audio Clip: The audio you wish to play. Volume: Modifies the volume of the audio when it's played. Spatial: When enabled, the audio will play as though it's coming from the target object. This creates a directional audio source. Near: Distance from the target you need to be to hear the audio at 100% Far: Distance from the target in which the audio source lowers to 0% Note Each instance of the Play Audio option will create a new AudioSource component. VRChat doesn't allow this component on Quest, and only a limited amount on PC. Learn more here VRChat Docs - Avatar Performance Ranks"
+  },
+  "docs/set-blendshape.html": {
+    "href": "docs/set-blendshape.html",
+    "title": "Set Blendshape | Avatar Forge",
+    "keywords": "Set Blendshape Sets the blenshape to the specified value while the control is ON. Target: The SkinnedMeshRenderer that you want to affect Inverted: When inverted, the blendshape will be set to 0 while ON and the specified value while OFF."
+  },
+  "docs/set-parameter.html": {
+    "href": "docs/set-parameter.html",
+    "title": "Set Parameter | Avatar Forge",
+    "keywords": "Set Parameter Modifies the value for any number of avatar parameters when the control turns ON. Parameter: The name of the parameter you want modified. Change Type: How the parameter should be modified. Value: The numerical value to be applied. Reset On Exit: If checked, the parameter will be set to zero when the control is turned OFF. Note If multiple controls affect the same parameter there may be conflicts depending on the order in which controls are turned ON/OFF. Keep this in mind when designing your avatar."
+  },
+  "docs/simple-fixes.html": {
+    "href": "docs/simple-fixes.html",
+    "title": "Getting Started | Avatar Forge",
+    "keywords": "Getting Started"
+  },
+  "docs/time-parameter.html": {
+    "href": "docs/time-parameter.html",
+    "title": "Time Parameter | Avatar Forge",
+    "keywords": "Time Parameter Warning This feature is experimental and may change in the future. This value may exist better in other locations. Adding this option modifies how the action's animation gets played. Typically an animation would play over seconds of time. Instead the animation's time is controlled by the specified parameter. Parameter: The parameter you want to control the time of the action's animation. A value of 0.0 puts the animation at the first keyframe, a value of 1.0 puts the animation at the last keyframe. Note Currently this option only works with animations supplied by Play Animation"
+  },
+  "docs/toggle-object.html": {
+    "href": "docs/toggle-object.html",
+    "title": "Toggle Object | Avatar Forge",
+    "keywords": "Toggle Object Specifies any number of GameObjects which will either be enabled or disabled when the control is ON or OFF. Note AvatarForge uses Write Defaults ON, so the GameObject will be disabled when uploaded."
+  },
+  "docs/triggers.html": {
+    "href": "docs/triggers.html",
+    "title": "Triggers | Avatar Forge",
+    "keywords": "Triggers Adds additional conditions in order for the control to be ON/OFF. This is an advanced option and requires knowledge of how animation controller states work. Trigger: What type of trigger do you want to add. Typically it's easiest to use \"Simple\". Simple: Handles both the enter and exit conditions simultaniously. You only define specify the enter conditions. Unlike other types, any one condition being false will trigger the state to exit. Enter: A trigger for entering the state. Exit: A trigger for exiting the state. Note Each trigger is checked separately. So if you have multiple triggers, only one needs to be true to enter or exit the state. Conditions: The actual parameter checks being performed for this trigger. Parameter: What parameter you want to check. Custom allows you to use any custom parameter, the other values are known VRChat parameters. Operation: What operation is used to check the values. Value: What value to check the parameter against. Note When a trigger has multiple conditions, all conditions must be true for the transition to work. Except for the case of \"Simple\" which it's automatic exit conditions are check separately. Note When applied to an action that already has implied conditions, such as a Toggle or a Gesture, those conditions are added to all your triggers. For example: You have a Toggle with an added Trigger which checks for AFK to be true. For the action to occur, both the Toggles needs to be turned on and AFK needs to be true."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Avatar Forge | Avatar Forge",
+    "keywords": "Avatar Forge Open source tool to simplify the creation of VRChat avatars in Unity with a non-destructive workflow. Quick Start: Add images to the images folder if the file is referencing an image."
+  }
+}

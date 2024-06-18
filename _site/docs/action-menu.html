@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Action Menu | Avatar Forge </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Action Menu | Avatar Forge ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/BirdiePeep/vrcavatarforge.github.io/blob/main/docs/action-menu.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Avatar Forge">
+            Avatar Forge
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="action-menu">Action Menu</h1>
+
+<p>Used to add controls to your avatar which are accessable through the VRChat Action Menu.<br>
+<img src="../images/action-menu.png" alt="action-menu"></p>
+<h2 id="controls">Controls</h2>
+<div class="tabGroup" id="tabgroup_1">
+<ul role="tablist">
+<li role="presentation">
+<a href="#tabpanel_1_toggle" role="tab" aria-controls="tabpanel_1_toggle" data-tab="toggle" tabindex="0" aria-selected="true">Toggle</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_1_button" role="tab" aria-controls="tabpanel_1_button" data-tab="button" tabindex="-1">Button</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_1_slider" role="tab" aria-controls="tabpanel_1_slider" data-tab="slider" tabindex="-1">Slider</a>
+</li>
+<li role="presentation">
+<a href="#tabpanel_1_submenu" role="tab" aria-controls="tabpanel_1_submenu" data-tab="submenu" tabindex="-1">Sub Menu</a>
+</li>
+</ul>
+<section id="tabpanel_1_toggle" role="tabpanel" data-tab="toggle">
+<h2 id="toggle-1">Toggle</h2>
+<p>A control which can be toggled ON/OFF.<br>
+<img src="../images/action-menu-toggle.png" alt="toggle"></p>
+<ul>
+<li><strong>Group:</strong> Specifies which group the toggle belongs to, you can use any string to represent a group. When grouped, only one toggle turned ON at a time.
+<ul>
+<li><strong>Default:</strong> Which toggle is ON by default for the group.</li>
+<li><strong>Off State:</strong> Which toggle represents the OFF state for the group.  This toggle turns ON when other the other grouped toggles are turned OFF.</li>
+</ul>
+</li>
+<li><strong>Default On:</strong> When enabled the toggle will start ON</li>
+<li><strong>Parameter:</strong> The parameter used for this control.  If left blank, or the parameter name does not exist, one will be auto-generated.</li>
+<li><strong>Fade In:</strong> Time in seconds for the control to fade in.</li>
+<li><strong>Fade Out:</strong> Time in seconds for the control to fade out.</li>
+<li><strong>Hold:</strong> Time in seconds the control will stay ON before fading out.  For example, you may want an animation to play for minimum of X seconds even if the user has turned the control OFF.</li>
+</ul>
+</section>
+<section id="tabpanel_1_button" role="tabpanel" data-tab="button" aria-hidden="true" hidden="hidden">
+<h2 id="button-1">Button</h2>
+<p>A control which can be temporarily ON/OFF.
+<img src="../images/action-menu-button.png" alt="button"></p>
+<ul>
+<li><strong>Parameter:</strong> The parameter used for this control.  If left blank, or the parameter name does not exist, one will be auto-generated.</li>
+<li><strong>Fade In:</strong> Time in seconds for the control to fade in.</li>
+<li><strong>Fade Out:</strong> Time in seconds for the control to fade out.</li>
+<li><strong>Hold:</strong> Time in seconds the control will stay ON before fading out.  For example, you may want an animation to play for minimum of X seconds even if the user has turned the control OFF.</li>
+</ul>
+</section>
+<section id="tabpanel_1_slider" role="tabpanel" data-tab="slider" aria-hidden="true" hidden="hidden">
+<h2 id="slider-1">Slider</h2>
+<p>A control which can set a value between 0% and 100%.
+<img src="../images/action-menu-slider.png" alt="slider"></p>
+<ul>
+<li><strong>Animation:</strong> An animation clip applied to the FX layer. The control value determines where the animation is sampled between it's start and end frames.  Unlike most animations it does not update over time.  For example, if the control is set to 50% then values will be applied from the middle of the animation.  This means you must supply an animation with at least two keyframes.</li>
+<li><strong>Default Value:</strong> The default value for the control.</li>
+<li><strong>Parameter:</strong> The parameter used for this control.  If left blank, or the parameter name does not exist, one will be auto-generated.</li>
+</ul>
+</section>
+<section id="tabpanel_1_submenu" role="tabpanel" data-tab="submenu" aria-hidden="true" hidden="hidden">
+<h2 id="submenu">SubMenu</h2>
+<p>Defines another menu for additional controls.  Click the <strong>Sub-Menu</strong> button to view/edit those controls.<br>
+<img src="../images/action-menu-sub-menu.png" alt="sub-menu"></p>
+</section>
+</div>
+<h2 id="options">Options</h2>
+<p>Options determine what happens when using a control.  <a href="non-menu-actions.html">Learn about Options.</a></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/BirdiePeep/vrcavatarforge.github.io/blob/main/docs/action-menu.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

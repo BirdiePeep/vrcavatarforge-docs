@@ -1,0 +1,435 @@
+{
+  "source_base_path": "D:/VRCAvatarForgeDocs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/action-menu.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/action-menu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/add-parameters.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/add-parameters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/attachments.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/attachments.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/body-overrides.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/body-overrides.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/build-options.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/build-options.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/example-avatar.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/example-avatar.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/gestures.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/gestures.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/install.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/install.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/material-swap.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/material-swap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/material-variation.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/material-variation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/merge-animators.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/merge-animators.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/non-menu-actions.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/non-menu-actions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/play-animation.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/play-animation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/play-audio.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/play-audio.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/set-blendshape.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/set-blendshape.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/set-parameter.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/set-parameter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/simple-fixes.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/simple-fixes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/time-parameter.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/time-parameter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/toggle-object.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toggle-object.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/triggers.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/triggers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/action-menu-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/action-menu-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/action-menu-slider.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/action-menu-slider.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/action-menu-sub-menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/action-menu-sub-menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/action-menu-toggle.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/action-menu-toggle.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/action-menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/action-menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/option-body-overrides.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/option-body-overrides.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/option-material-swap.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/option-material-swap.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/option-material-variation.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/option-material-variation.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/option-play-animation.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/option-play-animation.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/option-play-audio.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/option-play-audio.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/option-set-blendshape.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/option-set-blendshape.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/option-set-parameter.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/option-set-parameter.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/option-time-parameter.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/option-time-parameter.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/option-toggle-object.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/option-toggle-object.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/option-triggers.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/option-triggers.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/vcc-add-package.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/vcc-add-package.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/vcc-install-agree.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/vcc-install-agree.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/vcc-manage-project.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/vcc-manage-project.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
