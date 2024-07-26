@@ -1,7 +1,8 @@
 # Action Menu
 
+![action-menu](~/images/action-menu.png)
+
 Used to add controls to your avatar which are accessable through the VRChat Action Menu.  
-![action-menu](~/images/action-menu.png)  
   
 ## Controls
 
@@ -49,4 +50,4 @@ Defines another menu for additional controls.  Click the **Sub-Menu** button to 
 ---
 
 ## Options
-Options determine what happens when using a control.  [Learn about Options.](non-menu-actions.md)  
+Options determine what happens when using a control.  [Learn about Options.](action-options.md)  

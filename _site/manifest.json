@@ -22,6 +22,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "docs/action-options.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/action-options.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/add-parameters.md",
       "output": {
         ".html": {
@@ -269,6 +279,26 @@
       "output": {
         "resource": {
           "relative_path": "images/action-menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/add-parameters.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/add-parameters.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/non-menu-actions.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/non-menu-actions.png"
         }
       },
       "version": ""

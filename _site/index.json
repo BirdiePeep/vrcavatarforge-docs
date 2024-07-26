@@ -4,10 +4,15 @@
     "title": "Action Menu | Avatar Forge",
     "keywords": "Action Menu Used to add controls to your avatar which are accessable through the VRChat Action Menu. Controls Toggle Button Slider Sub Menu Toggle A control which can be toggled ON/OFF. Group: Specifies which group the toggle belongs to, you can use any string to represent a group. When grouped, only one toggle turned ON at a time. Default: Which toggle is ON by default for the group. Off State: Which toggle represents the OFF state for the group. This toggle turns ON when other the other grouped toggles are turned OFF. Default On: When enabled the toggle will start ON Parameter: The parameter used for this control. If left blank, or the parameter name does not exist, one will be auto-generated. Fade In: Time in seconds for the control to fade in. Fade Out: Time in seconds for the control to fade out. Hold: Time in seconds the control will stay ON before fading out. For example, you may want an animation to play for minimum of X seconds even if the user has turned the control OFF. Button A control which can be temporarily ON/OFF. Parameter: The parameter used for this control. If left blank, or the parameter name does not exist, one will be auto-generated. Fade In: Time in seconds for the control to fade in. Fade Out: Time in seconds for the control to fade out. Hold: Time in seconds the control will stay ON before fading out. For example, you may want an animation to play for minimum of X seconds even if the user has turned the control OFF. Slider A control which can set a value between 0% and 100%. Animation: An animation clip applied to the FX layer. The control value determines where the animation is sampled between it's start and end frames. Unlike most animations it does not update over time. For example, if the control is set to 50% then values will be applied from the middle of the animation. This means you must supply an animation with at least two keyframes. Default Value: The default value for the control. Parameter: The parameter used for this control. If left blank, or the parameter name does not exist, one will be auto-generated. SubMenu Defines another menu for additional controls. Click the Sub-Menu button to view/edit those controls. Options Options determine what happens when using a control. Learn about Options."
   },
+  "docs/action-options.html": {
+    "href": "docs/action-options.html",
+    "title": "Action Options | Avatar Forge",
+    "keywords": "Action Options Action Options define what happens when an action is turned ON/OFF, or can modify how the action works. Body Overrides Material Swap Material Variation Play Animation Play Audio Set Blendshape Set Parameter Toggle Object Triggers"
+  },
   "docs/add-parameters.html": {
     "href": "docs/add-parameters.html",
-    "title": "Getting Started | Avatar Forge",
-    "keywords": "Getting Started"
+    "title": "Add Parameters | Avatar Forge",
+    "keywords": "Add Parameters Used to add custom parameters to the avatar. Keep in mind most other features automatically define parameters. This feature is only nessecary in more advanced cases where you need to specifically define a custom parameter. Name: The name of the parameter. Type: The type of value does this parameter can store. Bool: (True, False) Int: A whole number. (1, 2, 32) Float: A number with decimal places. (0.0, 1.12, -23.93) Default: Value the parameter will start with when the avatar loads. Saved: Will enabled the parameter will save and load when switching between avatars. Synced: When enabled, any changes done by the avatar wearer will sync to all remote clients. When disabled any changes to the parameter will only be local."
   },
   "docs/attachments.html": {
     "href": "docs/attachments.html",
@@ -56,8 +61,8 @@
   },
   "docs/non-menu-actions.html": {
     "href": "docs/non-menu-actions.html",
-    "title": "Getting Started | Avatar Forge",
-    "keywords": "Getting Started"
+    "title": "Non-Menu Actions | Avatar Forge",
+    "keywords": "Non-Menu Actions Used to add behaviours to your avatar that aren't tied to an action menu control. For Example: Playing animation that triggers on AFK, or playing an idle animation. Fade In: Time in seconds for the control to fade in. Fade Out: Time in seconds for the control to fade out. Hold: Time in seconds the control will stay ON before fading out. For example, you may want an animation to play for minimum of X seconds even if the user has turned the control OFF. Options Options determine what happens when the action is active. Learn about Options."
   },
   "docs/play-animation.html": {
     "href": "docs/play-animation.html",
