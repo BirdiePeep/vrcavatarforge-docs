@@ -21,5 +21,5 @@ Allows objects to attach themselves onto the avatar.  This feature will also re-
 
 
 > [!NOTE]
-> When an object is attached we attempt to match any new SkinnedMeshRenderer bones with existing transforms.  Bone references will be looked up at it's new location and replaced with that new bone reference.  This only works if the bones from the source and target share an armature with the exact same path names.  Any bones without a matching transform at the new location will be left as their original value.
+> When attached we attempt to match any new SkinnedMeshRenderer bone references with existing transforms.  Bone references will be looked up at it's new location and replaced with that new bone reference.  This only works if the bones from the source and target share an armature with the exact same path names.  Any bones without a matching transform at the new location will be left as their original value.
 
