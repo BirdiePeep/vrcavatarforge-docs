@@ -1,6 +1,6 @@
 # Attach Object
 
-
+![attach-object](~/images/attach-object.png)  
 
 Allows objects to attach themselves onto the avatar.  This feature will also re-attach bones from matching SkinnedMeshRenderers, enabling clothing to move with the avatar.
 
