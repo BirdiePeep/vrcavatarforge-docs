@@ -2,8 +2,8 @@
   items:
     - name: Install
       href: install.md
-    - name: Example Avatar
-      href: example-avatar.md
+    - name: How To Use
+      href: how-to-use.md
 - name: Features
   items:
     - name: Action Menu

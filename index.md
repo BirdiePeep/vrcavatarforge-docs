@@ -9,5 +9,8 @@ Open source tool to simplify the creation of VRChat avatars in Unity with a non-
 ## Quick Start:
 
 
+[How To Install](docs/install.md)
 
-1. Add images to the *images* folder if the file is referencing an image.
+[How To Use](docs/how-to-use.md)
+
+[Learn About Features](docs/features.md)

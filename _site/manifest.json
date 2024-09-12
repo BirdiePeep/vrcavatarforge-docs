@@ -72,10 +72,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/example-avatar.md",
+      "source_relative_path": "docs/features.md",
       "output": {
         ".html": {
-          "relative_path": "docs/example-avatar.html"
+          "relative_path": "docs/features.html"
         }
       },
       "version": ""
@@ -86,6 +86,16 @@
       "output": {
         ".html": {
           "relative_path": "docs/gestures.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/how-to-use.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/how-to-use.html"
         }
       },
       "version": ""
@@ -289,6 +299,26 @@
       "output": {
         "resource": {
           "relative_path": "images/add-parameters.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/how-to-component.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/how-to-component.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/how-to-feature.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/how-to-feature.png"
         }
       },
       "version": ""

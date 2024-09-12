@@ -29,15 +29,20 @@
     "title": "Getting Started | Avatar Forge",
     "keywords": "Getting Started"
   },
-  "docs/example-avatar.html": {
-    "href": "docs/example-avatar.html",
-    "title": "Getting Started | Avatar Forge",
-    "keywords": "Getting Started"
+  "docs/features.html": {
+    "href": "docs/features.html",
+    "title": "Features | Avatar Forge",
+    "keywords": "Features Features are the core components of Avatar Forge, they describe what happens when the avatar is built. Some of these may be familiar just by name. Action Menu Non-Menu Actions Add Parameters Gestures Merge Animators Simple Fixes"
   },
   "docs/gestures.html": {
     "href": "docs/gestures.html",
     "title": "Getting Started | Avatar Forge",
     "keywords": "Getting Started"
+  },
+  "docs/how-to-use.html": {
+    "href": "docs/how-to-use.html",
+    "title": "How To Use | Avatar Forge",
+    "keywords": "How To Use The first step is to attach the Avatar Forge component to either your avatar or asset you want affected. You can do this by using the 'Add Component' button in your inspector for that object. Once the script is added you will need to add a Feature, these are the core building blocks of Avatar Forge. Each Feature performs it's own function. Learn More About Features."
   },
   "docs/install.html": {
     "href": "docs/install.html",
@@ -107,6 +112,6 @@
   "index.html": {
     "href": "index.html",
     "title": "Avatar Forge | Avatar Forge",
-    "keywords": "Avatar Forge Open source tool to simplify the creation of VRChat avatars in Unity with a non-destructive workflow. Quick Start: Add images to the images folder if the file is referencing an image."
+    "keywords": "Avatar Forge Open source tool to simplify the creation of VRChat avatars in Unity with a non-destructive workflow. Quick Start: How To Install How To Use Learn About Features"
   }
 }
