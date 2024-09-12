@@ -42,10 +42,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/attachments.md",
+      "source_relative_path": "docs/attach-object.md",
       "output": {
         ".html": {
-          "relative_path": "docs/attachments.html"
+          "relative_path": "docs/attach-object.html"
         }
       },
       "version": ""
@@ -299,6 +299,26 @@
       "output": {
         "resource": {
           "relative_path": "images/add-parameters.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/attach-object-attach.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/attach-object-attach.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/attach-object.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/attach-object.png"
         }
       },
       "version": ""

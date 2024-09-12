@@ -14,6 +14,8 @@
       href: add-parameters.md
     - name: Gestures
       href: gestures.md
+    - name: Attach Object
+      href: attach-object.md
     - name: Merge Animators
       href: merge-animators.md
     - name: Simple Fixes

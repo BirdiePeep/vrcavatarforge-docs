@@ -14,10 +14,10 @@
     "title": "Add Parameters | Avatar Forge",
     "keywords": "Add Parameters Used to add custom parameters to the avatar. Keep in mind most other features automatically define parameters. This feature is only nessecary in more advanced cases where you need to specifically define a custom parameter. Name: The name of the parameter. Type: The type of value does this parameter can store. Bool: (True, False) Int: A whole number. (1, 2, 32) Float: A number with decimal places. (0.0, 1.12, -23.93) Default: Value the parameter will start with when the avatar loads. Saved: Will enabled the parameter will save and load when switching between avatars. Synced: When enabled, any changes done by the avatar wearer will sync to all remote clients. When disabled any changes to the parameter will only be local."
   },
-  "docs/attachments.html": {
-    "href": "docs/attachments.html",
-    "title": "Getting Started | Avatar Forge",
-    "keywords": "Getting Started"
+  "docs/attach-object.html": {
+    "href": "docs/attach-object.html",
+    "title": "Attach Object | Avatar Forge",
+    "keywords": "Attach Object Allows objects to attach themselves onto the avatar. This feature will also re-attach bones from matching SkinnedMeshRenderers, enabling clothing to move with the avatar. Source: The object you want to move onto the avatar. If no Source is provided it will use the object this Feature is attached to. Attach Target: Root: Attaches to the root of the avatar. Path: Attaches to a string path provided assuming it can be found on the avatar. Humanoid Bone: Attaches to a specific humanoid bone, this is generic across all humanoid avatars. Merge Transforms: When enabled, any objects with the same path as existing objects on the avatar will not be moved. This is useful when attaching an object with a similar armature as you only want one set of bones. Keep World Position: When enabled, objects moved will keep their current world position. Sometimes this is useful if an attachment is not specifically setup for the target avatar. Attach Children Instead: When enabled, instead of attaching the Source all of the source's children will be moved to the target. Note Objects using this feature need to be placed somewhere on the avatar for the attachment to work. The exact location doesn't matter, but typically users will drag these onto the root of the avatar. For Example... Note When an object is attached we attempt to match any new SkinnedMeshRenderer bones with existing transforms. Bone references will be looked up at it's new location and replaced with that new bone reference. This only works if the bones from the source and target share an armature with the exact same path names. Any bones without a matching transform at the new location will be left as their original value."
   },
   "docs/body-overrides.html": {
     "href": "docs/body-overrides.html",
